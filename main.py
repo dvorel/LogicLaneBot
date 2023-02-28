@@ -8,6 +8,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
+nltk.download('punkt')
+nltk.download('wordnet')
 
 intents = json.loads(open('intents.json', encoding='utf-8').read())
 words = pickle.load(open('vocab.pkl', 'rb'))
