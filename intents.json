@@ -1,0 +1,537 @@
+{
+    "intents": [
+        {
+            "tag": "about_us",
+            "patterns": [
+                "Who are you",
+                "Can you tell me more about you"
+            ],
+            "responses": [
+                "We are young cluster consisting of expirienced programmers "
+            ]
+        },
+        {
+            "tag": "about_work",
+            "patterns": [
+                "What do you do",
+                "Can you tell me more about what you do",
+                "What is your field of work"
+            ],
+            "responses": [
+                "We create bespoke software solutions with strong emphasis on AI. Our services cover Data Preprocessing, Machine Learning, Deep Learning, Computer Vision and Natural Language Processing."
+            ]
+        },
+        {
+            "tag": "about_existence_lenght",
+            "patterns": [
+                "How long do you exist",
+                "How old is your company",
+                "How old is your cluster"
+            ],
+            "responses": [
+                "We are young cluster consisting of expirienced programmers "
+            ]
+        },
+        {
+            "tag": "about_people",
+            "patterns": [
+                "How many people in your company",
+                "How many people in your organisation",
+                "Is there a lot programmers in your cluster"
+            ],
+            "responses": [
+                "Currently we consist of eleven programmers. Tendency to grow."
+            ]
+        },
+        {
+            "tag": "about_expreience",
+            "patterns": [
+                "What are your past experiences",
+                "Can you tell me more about your past experiences",
+                "Do you have some projects that i can see"
+            ],
+            "responses": [
+                "Projekti koje cemo skupit od clanova"
+            ]
+        },
+        {
+            "tag": "about_reference",
+            "patterns": [
+                "Can you give me some references",
+                "Where can i check your references",
+                "Can i check your team members",
+                "Who are te people in your team"
+            ],
+            "responses": [
+                "linkedIn profili clanova"
+            ]
+        },
+        {
+            "tag": "about_examples",
+            "patterns": [
+                "Can you present some code examples",
+                "Where can I see your code",
+                "Do you have some code to show me"
+            ],
+            "responses": [
+                "link za git"
+            ]
+        },
+        {
+            "tag": "about_location",
+            "patterns": [
+                "Where are you situated",
+                "Where are you located",
+                "Where is the location of your cluster",
+                "What is your physical location",
+                "What is your physical address"
+            ],
+            "responses": [
+                "We are situated in small town of Lipik in continental part of Croatia. Surrounded by nature and greenery, with it's mild climate and friendly people, Lipik is great place for living and working."
+            ]
+        },
+        {
+            "tag": "about_clients",
+            "patterns": [
+                "Who are your clients",
+                "Can you tell me more about your clients",
+                "Do you have some clients",
+                "For whom are you working"
+            ],
+            "responses": [
+                "Necu ti rec"
+            ]
+        },
+        {
+            "tag": "about_partners",
+            "patterns": [
+                "Who are your partners",
+                "Can you tell me more about your partners",
+                "Do you have some partners",
+                "Can you tell me who are your partners"
+            ],
+            "responses": [
+                "AI Center Lipik, LIRA, Town of Lipik???"
+            ]
+        },
+        {
+            "tag": "tech_services",
+            "patterns": [
+                "What do you offer",
+                "What services do you offer",
+                "What services do you cover",
+                "What can you do for me"
+            ],
+            "responses": [
+                "Our services range from data preprocessing, creating custom solutions for various problems using computer vision and natural language processing models. For more information check our catalog."
+            ]
+        },
+        {
+            "tag": "tech_cv_def",
+            "patterns": [
+                "What is computer vision",
+                "Tell me more about computer vision",
+                "What can you do with computer vision"
+            ],
+            "responses": [
+                "Computer vision is a field of AI that trains computers to capture and interpret information from image and video data. By applying machine learning models to images, computers can classify objects and respond. Like unlocking your smartphone when it recognizes your face."
+            ]
+        },
+        {
+            "tag": "tech_cv_services",
+            "patterns": [
+                "What speciffic computer vision services you offer",
+                "What computer vision techniques do you use",
+                "What computer vision services do you offer"
+            ],
+            "responses": [
+                "Services about computer vision include, but are not limited to: detecting by color, shape detection, image filtering and augmentation and some more advanced services like face recognition. object detection, industrial visual quality inspection. For a full list check our catalog. "
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_colorDetection",
+            "patterns": [
+                "Tell me more about detecting by color",
+                "How does detecting by color works",
+                "How could detecting by color help me",
+                "What is detection by color"
+            ],
+            "responses": [
+                "A color detection algorithm identifies pixels in an image that match a specified color or color range. The color of detected pixels can then be changed to distinguish them from the rest of the image."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_shapeDetection",
+            "patterns": [
+                "Tell me more about shape detection",
+                "How does shape detection works",
+                "How could shape detection help me",
+                "What is shape detection"
+            ],
+            "responses": [
+                "Shape detection is an important part of Image Processing referring to modules that deal with identifying and detecting shapes of parts of image which differ in brightness,color or texture. There are several reasons we need to study shape detection most important being identifying shapes in images for object recognition or feature detection/extraction."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_filtering&augment",
+            "patterns": [
+                "Tell me more about image filtering and augmentation",
+                "How does image filtering and augmentation works",
+                "How could image filtering and augmentation help me",
+                "What is image filtering and augmentation"
+            ],
+            "responses": [
+                "Image data augmentation is the process of generating new transformed versions of images from the given image dataset to increase its diversity. To a computer, images are just a 2-dimensional array of numbers. These numbers represent pixel values, which you can tweak in many ways to generate new, augmented images. Image filtering is changing the appearance of an image by altering the colors of the pixels. Increasing the contrast as well as adding a variety of special effects to images are some of the results of applying filters"
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_imageStitching",
+            "patterns": [
+                "Tell me more about image stitching",
+                "How does image stitching works",
+                "How could image stitching help me",
+                "What is image stitching"
+            ],
+            "responses": [
+                "Image alignment algorithms can discover the correspondence relationships among images with varying degrees of overlap. They are ideally suited for applications such as video stabilization, summarization, and the creation of panoramic photographs. Image stitching algorithms take the alignment estimates produced by such registration algorithms and blend the images in a seamless manner, taking care to deal with potential problems such as blurring or ghosting caused by parallax and scene movement as well as varying image exposures."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_faceRecognition",
+            "patterns": [
+                "Tell me more about face recognition",
+                "How does face recognition works",
+                "How could face recognition help me",
+                "What is face recognition"
+            ],
+            "responses": [
+                "Facial recognition can identify human faces in images or videos, determine if the face in two images belongs to the same person, or search for a face among a large collection of existing images. It works by identifying and measuring facial features in an image."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_objectDetection",
+            "patterns": [
+                "Tell me more about object detection",
+                "How does object detection works",
+                "How could object detection help me",
+                "What is object detection"
+            ],
+            "responses": [
+                "Object detection is a computer vision technique that works to identify and locate objects within an image or video. Specifically, object detection draws bounding boxes around these detected objects, which allow us to locate where said objects are in (or how they move through) a given scene."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_opticalFlow",
+            "patterns": [
+                "Tell me more about optical flow",
+                "How does optical flow works",
+                "How could optical flow help me",
+                "What is optical flow"
+            ],
+            "responses": [
+                "Optical flow is a technique used to describe image motion. It is usually applied to a series of images that have a small time step between them, for example, video frames. Optical flow calculates a velocity for points within the images, and provides an estimation of where points could be in the next image sequence."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_handGestureRecognition",
+            "patterns": [
+                "Tell me more about hand gesture recognition",
+                "How does hand gesture recognition works",
+                "How could hand gesture recognition help me",
+                "What is hand gesture recognition"
+            ],
+            "responses": [
+                "Gesture recognition is technology that uses sensors to read and interpret hand movements as commands. In the automotive industry, this capability allows drivers and passengers to interact with the vehicle — usually to control the infotainment system without touching any buttons or screens."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_humanPoseDetection",
+            "patterns": [
+                "Tell me more about human pose detection",
+                "How does human pose detection works",
+                "How could human pose detection help me",
+                "What is human pose detection"
+            ],
+            "responses": [
+                "Human pose detection is a way of identifying and classifying the joints in the human body. Essentially it is a way to capture a set of coordinates for each joint (arm, head, torso, etc.,) which is known as a key point that can describe a pose of a person. The connection between these points is known as a pair. The connection formed between the points has to be significant, which means not all points can form a pair. From the outset, the aim of human pose detection is to form a skeleton-like representation of a human body and then process it further for task-specific applications."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_industrialVisualQualityInspection",
+            "patterns": [
+                "Tell me more about iundustrial visual quality inspection",
+                "How does iundustrial visual quality inspection works",
+                "How could iundustrial visual quality inspection help me",
+                "What is iundustrial visual quality inspection"
+            ],
+            "responses": [
+                "Software that leverages artificial intelligence (AI) is used today for visual inspection automation. By “teaching” a computer to read images and determine when they meet acceptable standards, companies can automate the visual inspection process, saving time and in some cases, improving accuracy. This could range from identifying corrosion on the tops of wind turbines to identifying faulty connectors within products electronics."
+            ]
+        },
+        {
+            "tag": "tech_cv_specific_textRecognition",
+            "patterns": [
+                "Tell me more about text recognition",
+                "How does text recognition works",
+                "How could text recognition help me",
+                "What is text recognition"
+            ],
+            "responses": [
+                "It is a technology that recognizes text within a digital image. It is commonly used to recognize text in scanned documents and images. Text recognition software can be used to convert a physical paper document, or an image into an accessible electronic version with text."
+            ]
+        },
+        {
+            "tag": "tech_nlp_def",
+            "patterns": [
+                "What is nlp",
+                "Can you tell me more about nlp",
+                "What is natural language processing"
+            ],
+            "responses": [
+                "NLP combines computational linguistics—rule-based modeling of human language—with statistical, machine learning, and deep learning models. Together, these technologies enable computers to process human language in the form of text or voice data and to 'understand' its full meaning, complete with the speaker or writer's intent and sentiment. NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time."
+            ]
+        },
+        {
+            "tag": "tech_nlp_services",
+            "patterns": [
+                "What are speciffic nlp services that you offer",
+                "What nlp techniques do you use",
+                "What nlp services do you offer"
+            ],
+            "responses": [
+                "Our services aobut natural language processing include: sentiment analysis, creating chatbots, text classification, creating reommending systems. To check all our services see our catalog."
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_sentimentAnalysis",
+            "patterns": [
+                "Tell me more about sentiment analysis",
+                "How does sentiment analysis works",
+                "How could sentiment analysis help me",
+                "What is sentiment analysis"
+            ],
+            "responses": [
+                "Sentiment analysis, also referred to as opinion mining, is the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral."
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_topicAnalysis",
+            "patterns": [
+                "Tell me more about topic analysis",
+                "How does topic analysis works",
+                "How could topic analysis help me",
+                "What is topic analysis"
+            ],
+            "responses": [
+                "When it comes to analyzing huge amounts of text data, it's just too big a task to do manually. It's also tedious, time-consuming, and expensive. Manually sorting through large amounts of data is more likely to lead to mistakes and inconsistencies. Plus, it doesn't scale well. Because of that we have topic analysis, a echnique that allows us to automatically extract meaning from text by identifying recurrent themes or topics. "
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_chatbots&virtualAssistants",
+            "patterns": [
+                "Tell me more about chatbots and virtual assistants",
+                "How does chatbots and virtual assistants work",
+                "How could chatbots and virtual assistants help me",
+                "What are chatbots and virtual assistants"
+            ],
+            "responses": [
+                "Leveraging a chatbot or AI virtual assistant, you can not only boost your business revenue but also save cost and create an excellent customer service experience. They are very similar to one another. The main difference between a chatbot and a virtual assistant is design and purpose. While virtual assistants are made to handle a variety of requests, chatbots are typically more specific with their offerings. "
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_textClassification",
+            "patterns": [
+                "Tell me more about text classification",
+                "How does text classification works",
+                "How could text classification help me",
+                "What is text classification"
+            ],
+            "responses": [
+                "More formally, text classification is an analytical process that takes any text document as input and assigns a label from a predetermined set of class labels. Less formally, it is the process of categorizing text into organized groups(classes)"
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_entityRecognition",
+            "patterns": [
+                "Tell me more about entity recognition",
+                "How does entity recognition works",
+                "How could entity recognition help me",
+                "What is entity recognition"
+            ],
+            "responses": [
+                "Named entity recognition (NER)is probably the first step towards information extraction that seeks to locate and classify named entities in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc. NER is used in many fields in Natural Language Processing, and it can help answering many real-world questions, such as:' Which companies were mentioned in the news article?', 'Were specified products mentioned in complaints or reviews?', 'Does the tweet contain the name of a person?'  "
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_naturalLanguageGeneration",
+            "patterns": [
+                "Tell me more about natural language generation",
+                "How does natural language generation works",
+                "How could natural language generation help me",
+                "What is natural language generation"
+            ],
+            "responses": [
+                "Natural language generation (NLG) is the use of artificial intelligence (AI) programming to produce written or spoken narratives from a data set. NLG often focuses on building computer programs that provide data points with context. Sophisticated NLG software can mine large quantities of numerical data, identify patterns and share that information in a way that is easy for humans to understand. The speed of NLG software is especially useful for producing news and other time-sensitive stories on the internet."
+            ]
+        },
+        {
+            "tag": "tech_nlp_specific_recommendingSystem",
+            "patterns": [
+                "Tell me more about recommending system",
+                "How does recommending system works",
+                "How could recommending system help me",
+                "What is recommending system"
+            ],
+            "responses": [
+                "Recommending systems are the systems that are designed to recommend things to the user based on many different factors. These systems predict the most likely product that the users are likely to purchase and are of interest to. The recommender system deals with a large volume of information present by filtering the most important information based on the data provided by a user and other factors that take care of the user's preference and interest. It finds out the match between user and item and imputes the similarities between users and items for recommendation. Both the users and the services provided have benefited from these kinds of systems. The quality and decision-making process has also improved through these kinds of systems."
+            ]
+        },
+        {
+            "tag": "tech_data_processing_def",
+            "patterns": [
+                "What is data processing",
+                "Can you tell me more about data processing"
+            ],
+            "responses": [
+                "Data preprocessing, a component of data preparation, describes any type of processing performed on raw data to prepare it for another data processing procedure. It has traditionally been an important preliminary step for the data mining process. More recently, data preprocessing techniques have been adapted for training machine learning models and AI models and for running inferences against them. Data preprocessing transforms the data into a format that is more easily and effectively processed in data mining, machine learning and other data science tasks."
+            ]
+        },
+        {
+            "tag": "tech_data_processing_services",
+            "patterns": [
+                "What are speciffic data processing services that you offer",
+                "What data processing techniques do you use",
+                "What data processing services do you offer"
+            ],
+            "responses": [
+                "Services for data preprocessing include: dataset colection, dataset annotation, dataset augmentation and cleaning"
+            ]
+        },
+        {
+            "tag": "tech_data_processing_specific_datasetCollection",
+            "patterns": [
+                "Tell me more about dataset collection",
+                "How does dataset collection works",
+                "How could dataset collection help me",
+                "What is dataset collection"
+            ],
+            "responses": [
+                "Put simply, data collection is the process of gathering information for a specific purpose. It can be used to answer research questions, make informed business decisions, or improve products and services."
+            ]
+        },
+        {
+            "tag": "tech_data_processing_specific_datasetAnnotation",
+            "patterns": [
+                "Tell me more about dataset annotation",
+                "How does dataset annotation works",
+                "How could dataset annotation help me",
+                "What is dataset annotation"
+            ],
+            "responses": [
+                "Data annotation is the process of labeling individual elements of training data (whether text, images, audio, or video) to help machines understand what exactly is in it and what is important. This annotated data is then used for model training. The purpose of annotating data is to tell machine learning models exactly what we want them to know."
+            ]
+        },
+        {
+            "tag": "tech_data_processing_specific_datasetAumentation&Cleaning",
+            "patterns": [
+                "Tell me more about dataset augmentation and cleaning",
+                "How does dataset augmentation and cleaning works",
+                "How could dataset augmentation and cleaning help me",
+                "What is dataset augmentation and cleaning"
+            ],
+            "responses": [
+                "Dataset augmentation applies transformations to your training examples: they can be as simple as flipping an image, or as complicated as applying neural style transfer. The idea is that by changing the makeup of your data, you can improve your performance and increase your training set size. Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. When combining multiple data sources, there are many opportunities for data to be duplicated or mislabeled. "
+            ]
+        },
+        {
+            "tag": "tech_programing_lanugages",
+            "patterns": [
+                "What programming languages do you use",
+                "What programming languages do you cover"
+            ],
+            "responses": [
+                "Python, JavaScript, C++, ..."
+            ]
+        },
+        {
+            "tag": "tech_predictive_models",
+            "patterns": [
+                "Do you do predictive models",
+                "Do you offer predictive models",
+                "Can you make predictive models"
+            ],
+            "responses": [
+                "Offcourse :)"
+            ]
+        },
+        {
+            "tag": "cluster_billing",
+            "patterns": [
+                "How do you bill",
+                "How billing works",
+                "What is payment process"
+            ],
+            "responses": [
+                "jedan racun koji izdaje zadruga"
+            ]
+        },
+        {
+            "tag": "cluster_bus_mod",
+            "patterns": [
+                "What is your business model",
+                "Can you tell me more about your business model"
+            ],
+            "responses": [
+                "bespoke software solutions and people pay us"
+            ]
+        },
+        {
+            "tag": "cluster_legal_form",
+            "patterns": [
+                "What is your legal form",
+                "Can you tell me more about your legal form"
+            ],
+            "responses": [
+                "vjv business cluster"
+            ]
+        },
+        {
+            "tag": "cluster_IR35",
+            "patterns": [
+                "Are you in IR35",
+                "Are you under IR35"
+            ],
+            "responses": [
+                "upitno"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "TO-DO3"
+            ],
+            "responses": [
+                "I'm sorry, I'm not able to answer that. You can contact us for more information via this link:\nhttps:link"
+            ]
+        },
+        {
+            "tag": "contact_price",
+            "patterns": [
+                "What is the price of your services",
+                "Price of services"
+            ],
+            "responses": [
+                "For any information about pricing contact us via this link:\nhttps:link"
+            ]
+        },
+        {
+            "tag": "low_tresh_handling",
+            "patterns": [
+                "TO-DO4"
+            ],
+            "responses": [
+                "I'm sorry, I'm not able to answer that. Can you rephrase your question, please"
+            ]
+        }
+    ]
+}
